@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { RootComponent } from './components/root/root.component';
-import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './modules/account/pages/page-not-found/page-not-found.component';
 
 import{AddListingComponent} from './modules/site/pages/page-components/add-listing/add-listing.component';
 

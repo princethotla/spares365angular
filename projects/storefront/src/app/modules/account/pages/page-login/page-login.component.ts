@@ -8,10 +8,10 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { mustMatchValidator } from '../../../../functions/validators/must-match';
 
 import { NgForm, NgModel } from '@angular/forms';
-import { RegistrationService } from './registration.service';
-import { UserinfoService } from './userinfo.service';
+import { RegistrationService } from '../../services/registration.service';
+import { UserinfoService } from '../../services/userinfo.service';
 
-import { User } from './user';
+import { User } from '../../modal/user';
 import { ToastrService } from 'ngx-toastr';
 import Swal from 'sweetalert2';
 

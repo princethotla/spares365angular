@@ -30,7 +30,7 @@ import { RootComponent } from './components/root/root.component';
 import { UploadFilesComponent } from './components/upload-files/upload-files.component';
 
 // pages
-import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './modules/account/pages/page-not-found/page-not-found.component';
 
 @NgModule({
     declarations: [

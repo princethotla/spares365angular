@@ -4,7 +4,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { mergeMap } from 'rxjs/operators';
 import { EditProfileData } from '../../app/api/base';
 
-import { User as UserPOJO}  from '../../app/modules/account/pages/page-login/user';
+import { User as UserPOJO}  from '../../app/modules/account/modal/user';
 
 function error(message: string): HttpErrorResponse {
     return new HttpErrorResponse({

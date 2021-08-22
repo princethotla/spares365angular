@@ -5,7 +5,6 @@ export class User {
     phone: number;
     password: string;
     resetPasswordToken: string;
-
-
-    constructor() { }
+    
+    constructor () {}
 }

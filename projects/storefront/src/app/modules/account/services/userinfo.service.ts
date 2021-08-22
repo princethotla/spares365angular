@@ -1,7 +1,6 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { User } from './storefront/src/app/modules/account/pages/page-login/user';
-
+import { User } from '../modal/user';
 
 @Injectable({
   providedIn: 'root'

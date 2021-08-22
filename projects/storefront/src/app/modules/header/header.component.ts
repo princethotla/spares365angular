@@ -8,7 +8,7 @@ import { HeaderService } from '../../services/header.service';
 import { TranslateService } from '@ngx-translate/core';
 import { UrlService } from '../../services/url.service';
 
-import { UserinfoService } from '../account/pages/page-login/userinfo.service';
+import { UserinfoService } from '../account/services/userinfo.service';
 
 
 @Component({

@@ -6,7 +6,7 @@ import { finalize, takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import { ToastrService } from 'ngx-toastr';
 import { TranslateService } from '@ngx-translate/core';
-import { UserinfoService } from '../../../../../../../userinfo.service';
+import { UserinfoService } from '../../services/userinfo.service';
 
 @Component({
     selector: 'app-page-profile',
